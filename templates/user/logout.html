@@ -1,0 +1,23 @@
+{% extends 'partials/base.html' %}
+{% block title %}Logout Page{% endblock %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<div class="row my-4">
+    <div class="col-md-6 offset-md-3">
+        <div class="border p-3 bg-white">
+            <h4>Logout Page</h4>
+            <hr>
+            <!-- <form action="{% url 'user-logout' %}" method="POST" class="d-inline">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-link text-white nav-link" style="padding: 0; border: none; background: none;">
+                    Logout
+                </button>
+            </form> -->
+            
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
